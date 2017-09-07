@@ -3,7 +3,7 @@
 Example npm build.
 
 ```groovy
-@Library('adp-jenkins') _
+@Library('my-shared-lib') _
 pipeline {
     agent {
         label 'docker'
